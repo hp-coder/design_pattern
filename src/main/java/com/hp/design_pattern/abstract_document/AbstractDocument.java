@@ -22,7 +22,7 @@ public abstract class AbstractDocument implements Document {
 
     @Override
     public void put(String key, Object value) {
-        properties.put(key,value);
+        properties.put(key, value);
     }
 
     @Override

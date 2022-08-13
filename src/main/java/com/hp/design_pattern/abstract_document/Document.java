@@ -12,7 +12,7 @@ import java.util.stream.Stream;
  * 2. 像树结构，但更灵活的管理领域对象
  * 3. 低耦合系统
  *
- * @Author: HP
+ * @author HP
  */
 public interface Document {
 
