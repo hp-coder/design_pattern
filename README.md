@@ -107,3 +107,17 @@ also known as `wrapper`
   - 仅针对历史的微服务的办法，远程微服务无法修改，或极难修改的情况下，新的功能，例如日志，延迟检测等，可以通过继承同样的接口然后对该远程service包装以达到目的
   - 为远程服务提供了一个本地接口
   - 为远程服务提供日志，熔断，重试，安全检查等 
+  
+## Arrange/Act/Assert
+
+also known as Given/When/Then
+
+`test, idiom`
+
+- 目的
+  - Arrange/Act/Assert(AAA)规范单元测试，将一个单元测试分解为三个单独步骤
+    - Arrange: 初始化设置
+    - Act: 测试
+    - Assert: 检测结果
+- 应用
+  - aaa方式编排单元测试提高可读性，方便增强和维护 
